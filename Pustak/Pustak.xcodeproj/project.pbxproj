@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184D59002C07251A00C04E37 /* PustakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D58FF2C07251A00C04E37 /* PustakApp.swift */; };
+		184D59022C07251A00C04E37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D59012C07251A00C04E37 /* ContentView.swift */; };
+		184D59042C07251C00C04E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184D59032C07251C00C04E37 /* Assets.xcassets */; };
+		184D59072C07251C00C04E37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184D59062C07251C00C04E37 /* Preview Assets.xcassets */; };
+		184D59112C07251C00C04E37 /* PustakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D59102C07251C00C04E37 /* PustakTests.swift */; };
+		184D591B2C07251C00C04E37 /* PustakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D591A2C07251C00C04E37 /* PustakUITests.swift */; };
+		184D591D2C07251C00C04E37 /* PustakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D591C2C07251C00C04E37 /* PustakUITestsLaunchTests.swift */; };
+		18DB650A2C0851C600785568 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB65092C0851C600785568 /* HomeView.swift */; };
+		18DB650C2C08522500785568 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB650B2C08522500785568 /* LibraryView.swift */; };
+		18DB650E2C08531500785568 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DB650D2C08531500785568 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184D590D2C07251C00C04E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184D58F42C07251A00C04E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184D58FB2C07251A00C04E37;
+			remoteInfo = Pustak;
+		};
+		184D59172C07251C00C04E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184D58F42C07251A00C04E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184D58FB2C07251A00C04E37;
+			remoteInfo = Pustak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184D58FC2C07251A00C04E37 /* Pustak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pustak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184D58FF2C07251A00C04E37 /* PustakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PustakApp.swift; sourceTree = "<group>"; };
+		184D59012C07251A00C04E37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		184D59032C07251C00C04E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184D59062C07251C00C04E37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		184D590C2C07251C00C04E37 /* PustakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PustakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184D59102C07251C00C04E37 /* PustakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PustakTests.swift; sourceTree = "<group>"; };
+		184D59162C07251C00C04E37 /* PustakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PustakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184D591A2C07251C00C04E37 /* PustakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PustakUITests.swift; sourceTree = "<group>"; };
+		184D591C2C07251C00C04E37 /* PustakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PustakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18DB65092C0851C600785568 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		18DB650B2C08522500785568 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		18DB650D2C08531500785568 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184D58F92C07251A00C04E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184D59092C07251C00C04E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184D59132C07251C00C04E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184D58F32C07251A00C04E37 = {
+			isa = PBXGroup;
+			children = (
+				184D58FE2C07251A00C04E37 /* Pustak */,
+				184D590F2C07251C00C04E37 /* PustakTests */,
+				184D59192C07251C00C04E37 /* PustakUITests */,
+				184D58FD2C07251A00C04E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184D58FD2C07251A00C04E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184D58FC2C07251A00C04E37 /* Pustak.app */,
+				184D590C2C07251C00C04E37 /* PustakTests.xctest */,
+				184D59162C07251C00C04E37 /* PustakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184D58FE2C07251A00C04E37 /* Pustak */ = {
+			isa = PBXGroup;
+			children = (
+				184D58FF2C07251A00C04E37 /* PustakApp.swift */,
+				184D59012C07251A00C04E37 /* ContentView.swift */,
+				18DB650D2C08531500785568 /* ProfileView.swift */,
+				18DB65092C0851C600785568 /* HomeView.swift */,
+				18DB650B2C08522500785568 /* LibraryView.swift */,
+				184D59032C07251C00C04E37 /* Assets.xcassets */,
+				184D59052C07251C00C04E37 /* Preview Content */,
+			);
+			path = Pustak;
+			sourceTree = "<group>";
+		};
+		184D59052C07251C00C04E37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				184D59062C07251C00C04E37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		184D590F2C07251C00C04E37 /* PustakTests */ = {
+			isa = PBXGroup;
+			children = (
+				184D59102C07251C00C04E37 /* PustakTests.swift */,
+			);
+			path = PustakTests;
+			sourceTree = "<group>";
+		};
+		184D59192C07251C00C04E37 /* PustakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184D591A2C07251C00C04E37 /* PustakUITests.swift */,
+				184D591C2C07251C00C04E37 /* PustakUITestsLaunchTests.swift */,
+			);
+			path = PustakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184D58FB2C07251A00C04E37 /* Pustak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184D59202C07251C00C04E37 /* Build configuration list for PBXNativeTarget "Pustak" */;
+			buildPhases = (
+				184D58F82C07251A00C04E37 /* Sources */,
+				184D58F92C07251A00C04E37 /* Frameworks */,
+				184D58FA2C07251A00C04E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pustak;
+			productName = Pustak;
+			productReference = 184D58FC2C07251A00C04E37 /* Pustak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184D590B2C07251C00C04E37 /* PustakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184D59232C07251C00C04E37 /* Build configuration list for PBXNativeTarget "PustakTests" */;
+			buildPhases = (
+				184D59082C07251C00C04E37 /* Sources */,
+				184D59092C07251C00C04E37 /* Frameworks */,
+				184D590A2C07251C00C04E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184D590E2C07251C00C04E37 /* PBXTargetDependency */,
+			);
+			name = PustakTests;
+			productName = PustakTests;
+			productReference = 184D590C2C07251C00C04E37 /* PustakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184D59152C07251C00C04E37 /* PustakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184D59262C07251C00C04E37 /* Build configuration list for PBXNativeTarget "PustakUITests" */;
+			buildPhases = (
+				184D59122C07251C00C04E37 /* Sources */,
+				184D59132C07251C00C04E37 /* Frameworks */,
+				184D59142C07251C00C04E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184D59182C07251C00C04E37 /* PBXTargetDependency */,
+			);
+			name = PustakUITests;
+			productName = PustakUITests;
+			productReference = 184D59162C07251C00C04E37 /* PustakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184D58F42C07251A00C04E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					184D58FB2C07251A00C04E37 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					184D590B2C07251C00C04E37 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 184D58FB2C07251A00C04E37;
+					};
+					184D59152C07251C00C04E37 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 184D58FB2C07251A00C04E37;
+					};
+				};
+			};
+			buildConfigurationList = 184D58F72C07251A00C04E37 /* Build configuration list for PBXProject "Pustak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184D58F32C07251A00C04E37;
+			productRefGroup = 184D58FD2C07251A00C04E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184D58FB2C07251A00C04E37 /* Pustak */,
+				184D590B2C07251C00C04E37 /* PustakTests */,
+				184D59152C07251C00C04E37 /* PustakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184D58FA2C07251A00C04E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184D59072C07251C00C04E37 /* Preview Assets.xcassets in Resources */,
+				184D59042C07251C00C04E37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184D590A2C07251C00C04E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184D59142C07251C00C04E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184D58F82C07251A00C04E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DB650C2C08522500785568 /* LibraryView.swift in Sources */,
+				18DB650A2C0851C600785568 /* HomeView.swift in Sources */,
+				18DB650E2C08531500785568 /* ProfileView.swift in Sources */,
+				184D59022C07251A00C04E37 /* ContentView.swift in Sources */,
+				184D59002C07251A00C04E37 /* PustakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184D59082C07251C00C04E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184D59112C07251C00C04E37 /* PustakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184D59122C07251C00C04E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184D591D2C07251C00C04E37 /* PustakUITestsLaunchTests.swift in Sources */,
+				184D591B2C07251C00C04E37 /* PustakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184D590E2C07251C00C04E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184D58FB2C07251A00C04E37 /* Pustak */;
+			targetProxy = 184D590D2C07251C00C04E37 /* PBXContainerItemProxy */;
+		};
+		184D59182C07251C00C04E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184D58FB2C07251A00C04E37 /* Pustak */;
+			targetProxy = 184D59172C07251C00C04E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		184D591E2C07251C00C04E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184D591F2C07251C00C04E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184D59212C07251C00C04E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pustak/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swe.Pustak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184D59222C07251C00C04E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pustak/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swe.Pustak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184D59242C07251C00C04E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swe.PustakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pustak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pustak";
+			};
+			name = Debug;
+		};
+		184D59252C07251C00C04E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swe.PustakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pustak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pustak";
+			};
+			name = Release;
+		};
+		184D59272C07251C00C04E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swe.PustakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pustak;
+			};
+			name = Debug;
+		};
+		184D59282C07251C00C04E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swe.PustakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pustak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184D58F72C07251A00C04E37 /* Build configuration list for PBXProject "Pustak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184D591E2C07251C00C04E37 /* Debug */,
+				184D591F2C07251C00C04E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184D59202C07251C00C04E37 /* Build configuration list for PBXNativeTarget "Pustak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184D59212C07251C00C04E37 /* Debug */,
+				184D59222C07251C00C04E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184D59232C07251C00C04E37 /* Build configuration list for PBXNativeTarget "PustakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184D59242C07251C00C04E37 /* Debug */,
+				184D59252C07251C00C04E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184D59262C07251C00C04E37 /* Build configuration list for PBXNativeTarget "PustakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184D59272C07251C00C04E37 /* Debug */,
+				184D59282C07251C00C04E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184D58F42C07251A00C04E37 /* Project object */;
+}
