@@ -30,12 +30,21 @@ Book(isbn:"r3672167211t47821",bookName: "The Known World", bookAuthor: "By Spenc
     
     
     let reqItems = [
-        Book(isbn:"r367216721t478121",bookName: "The Ruskin Bond Part2", bookAuthor: "By JK Rawling", bookImage: Image("t2")),
+        Book(isbn:"r367216721t478121",bookName: "The Ruskin Bond Part2", bookAuthor: "By JK Rawling", bookImage: Image("bc1")),
 //Book(/*isbn:"r367216721t47821",bookName: "Cold Blooded Love", bookAuthor: "By Spencer ", bookImage: Image("t1")),*/
 //        Book(isbn:"r367216721t4781221",bookName: "The World Is Not Enough", bookAuthor: "By Jeremy Black", bookImage: Image("c2")),
 //Book(isbn:"r3672167211t47821",bookName: "The Known World", bookAuthor: "By Spencer Ackerman", bookImage: Image("t6"))
         ]
     @State private var centerIndex : Int? = nil
+    
+    @State private var  searchText = ""
+    
+//    var filterbooks: [Book]{
+//        if searchText.isEmpty{
+//            return
+//        }
+//    }
+    
     
     
     var body: some View{
@@ -125,19 +134,39 @@ Book(isbn:"r3672167211t47821",bookName: "The Known World", bookAuthor: "By Spenc
                                 HStack(spacing: 20){
 //
                                     VStack(alignment: .leading){
-                                        item.bookImage.resizable().frame(width: 70, height: 100).aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/).cornerRadius(9)
-                                    }
+                                        item.bookImage.resizable().frame(width: 70, height: 120).aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                                    }.frame(width: 60, height: 120)
                                     VStack(alignment: .leading, spacing: 5){
-                                        Text(item.bookName).font(.title3).multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/).lineLimit(nil).fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                        Spacer()
+                                        Text(item.bookName).font(.title3).fontWeight(.semibold).multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/).lineLimit(nil).fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
                                         Text(item.bookAuthor).font(.caption).foregroundColor(.gray).multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/).lineLimit(nil).fixedSize(horizontal: false, vertical: /*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                        Text("Accepted").font(.caption2).foregroundColor(.green)
-                                        Text("Fine: 20Rs").font(.caption2).foregroundColor(.red)
+                                        Spacer()
+                                        HStack{
+                                            Button(action: {}) {
+                                                Text("Accepted").font(.subheadline).foregroundColor(.green)
+                                            }.padding(EdgeInsets(top: 4, leading: 14, bottom: 4, trailing: 14)).background(LinearGradient(
+                                                gradient: Gradient(colors: [Color.gray.opacity(0.1), Color.gray.opacity(0.2)]),
+                                                startPoint: .top,
+                                                endPoint: .bottom
+                                            )).cornerRadius(9)
+                                           
+                                            Button(action: {}) {
+                                                Text("1/06/2024").font(.subheadline).foregroundColor(.blue)
+                                            }.padding(EdgeInsets(top: 4, leading: 14, bottom: 4, trailing: 14)).background(LinearGradient(
+                                                gradient: Gradient(colors: [Color.gray.opacity(0.1), Color.gray.opacity(0.2)]),
+                                                startPoint: .top,
+                                                endPoint: .bottom
+                                            )).cornerRadius(9)
+                                        }
+//                                       } Text("Accepted").font(.caption2).foregroundColor(.green)
+//                                        Text("Fine: 20Rs").font(.caption2).foregroundColor(.red)
+                                        Spacer()
 
-                                    }.frame(width: 230).padding(.leading).padding(.trailing)
+                                    }.frame(width: 230, height: 100).padding(.trailing).background(Color(red: 233 / 255, green: 220 / 255, blue: 200 / 255)).cornerRadius(9)
 //                                    VStack(alignment: .leading){
 //                                        Text("No Dues").font(.title3).foregroundColor(.yellow)
 //                                    }
-                                }.padding(EdgeInsets(top: 12, leading: 12, bottom: 12, trailing: 0)).cornerRadius(9).background(Color(red: 233 / 255, green: 220 / 255, blue: 200 / 255)).frame(width: 300)
+                                }.padding(EdgeInsets(top: 12, leading: 0, bottom: 12, trailing: 0)).cornerRadius(9).frame(width: 300)
 //
                             }
                         }.padding(EdgeInsets(top: 0, leading: 49, bottom: 0, trailing: 49)).cornerRadius(9)

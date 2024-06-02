@@ -150,11 +150,16 @@ struct ContentView: View{
                 Image(systemName: "house.fill")
                 Text("home")
             }
-            LibraryView().tabItem{
-                Image(systemName: "book.fill")
+            CategoryBookView().tabItem{
+                Image(systemName: "books.vertical")
                 Text("Library")
             }
-            ProfileView().tabItem{
+            MyBooksView().tabItem{
+                Image(systemName: "book.fill")
+                Text("My Books")
+            }
+            
+            LibrarianProfileView().tabItem{
                 Image(systemName: "person.fill")
                 Text("Profile")
             }
